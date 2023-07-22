@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122474193-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122474193-1');
+</script>
+
+<!-- Basic Page Needs
+    ================================================== -->
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soft Skills Academy</title>
+<meta name="description" content="Electrical Engineering Students' European Association is an apolitical,
+                non-governmental and non-profit organization which targets and trains
+                through its activities students from electrical profile Universities,
+                Institutes and Technical Schools in Europe. EESTEC LC Xanthi @ Democritus University of Thrace (DUTH).">
+<meta name="keywords" content="EESTEC Xanthi duth Electrical Engineering Computers Volunteering Non-govermental">
+<meta name="author" content="Michalis Fotiadis">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="icon " href="../favicon.ico" type="image/x-icon">
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="../css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../fonts/font-awesome/css/font-awesome.css">
+
+<!-- Slider
+    ================================================== -->
+<link href="../css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="../css/owl.theme.css" rel="stylesheet" media="screen">
+
+<!-- Animation
+==========================================================-->
+<link href="../css/animate.css" rel="stylesheet" media="screen">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/responsive.css">
+<!-- <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+-->
+<script type="text/javascript" src="../js/modernizr.custom.js"></script>
+
+<!-- Lightbox
+    ================================================== -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/formstone/1.1.3/css/grid.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/formstone/1.1.3/css/carousel.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/formstone/1.1.3/css/lightbox.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/formstone/1.1.3/css/themes/light.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body onload="document.getElementById('preloader-overlay').style.display = 'none'">
+<!-- Loader -->
+<div id="preloader-overlay">
+    <div id="loader"></div>
+</div>
+
+<!-- Navigation
+    ==========================================-->
+<nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <!-- <a class="navbar-brand" href="/index.html"><img src="/img/logo-top.png" width="165" height="100"></a>-->
+        <a href="../index.html#hero" class="page-scroll"><img id="logo" src="../img/logo-top.png" alt=""></a> </div>
+    <div class="col-md-10 fright">
+      <!-- content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../index.html#hero" id="home" class="page-scroll">Home</a></li>
+          <li><a href="../index.html#tf-products" id="about" class="page-scroll">About Us</a></li>
+          <!--Drop down menu end-->
+          <li><a href="../index.html#tf-works" id="work" class="page-scroll">Our Work</a></li>
+          <li><a href="../index.html#tf-partners" id="partners" class="page-scroll">Our Partners</a></li>
+          <li><a href="../index.html#tf-contact" id="contact" class="page-scroll">Contact Us</a></li>
+             <div class="pull-right" style="margin-top: 15px; margin-left: 10px;" onClick="return translateEN()" >
+                <a href="/" onClick="return false;"><img src="../img/UnitedKingdom.png"></a>
+            </div>
+            <div class="pull-right" style="margin-top: 15px; margin-left: 10px;" onClick="return translateGR()">
+                <a href="/" onClick="return false;"><img src="../img/Greece.png"></a>
+            </div>
+        </ul>
+
+      </div>
+      <!-- /.navbar-collapse -->
+
+    </div>
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+<!-- product Section
+    ==========================================-->
+<section id="tf-products">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title"> <span class="lne"></span>
+          <h4 class="product-headingn wow fadeInDown" data-wow-delay="2s">Soft Skills Academy</h4>
+        </div>
+
+            <div class="col-md-12 tab" style="margin-top: 20px">
+              <button id="makeactive" class="tablinks" onclick="openCity(event, 'general')">About</button>
+<!--              <button id="makeactive" class="tablinks" onclick="openCity(event, 'ssa3')">SSA 3</button>-->
+              <button class="tablinks" onclick="openCity(event, 'ssa5')">SSA 5</button>
+              <button class="tablinks" onclick="openCity(event, 'ssa4')">SSA 4</button>
+              <button class="tablinks" onclick="openCity(event, 'ssa3')">SSA 3</button>
+              <button class="tablinks" onclick="openCity(event, 'ssa2')">SSA 2</button>
+              <button class="tablinks" onclick="openCity(event, 'ssa1')">SSA 1</button>
+            </div>
+
+            <div id="general" class="tabcontent">
+              <div class="col-md-6">
+                    <div class="about-text">
+                      <ul class="products-list">
+                          <li class=" wow fadeIn" data-wow-delay="2s"><strong style="color: red"><b id="ssa_about">What is SSA</b></strong><br>
+                                <p id="ssa_about1">It is an international project of EESTEC which is implemented all over Europe. The main objective of the project is to give students the opportunity to improve their personal and professional skills which will have a positive impact on their self-awareness and self-confidence. During the Academy students have a chance to develop skills such as leadership, teamwork, presentation and communication skills, emotional intelligence and other related topics.</p>
+                          </li>
+                          <li class=" wow fadeIn" data-wow-delay="2.2s"><strong style="color: red"><b id="ssa_about2">SSA in Xanthi</b></strong><br>
+                          <p id="ssa_about3">LC Xanthi has a strong tradition in soft skills developement, having organized 3 SSAs in the past years. We will continue to organize SSA as an open project for EESTEC and non-EESTEC members.</p>
+                        </li>
+                      </ul>
+                    </div>
+
+<!--
+                    <div class="row">
+                        <div style="text-align: center" class="col-md-6 wow fadeIn" data-wow-delay="1.5s">
+                            <h4><a id="find_out" href="https://www.facebook.com/ssaxanthi/" target="_blank">Find out more</a></h4>
+                            <a href="https://www.facebook.com/ssaxanthi/" target="_blank"><i class="fa fa-facebook-official fa-6" style="font-size: 5em; color: #3B5998"></i></a>
+                        </div>
+                        <div style="text-align: center" class="col-md-6 wow fadeIn" data-wow-delay="1.5s">
+                            <h4><a href="https://www.instagram.com/eestec_lc_xanthi/" target="_blank">Our Instagram</a></h4>
+                            <a href="https://www.instagram.com/eestec_lc_xanthi/" target="_blank"><img src="/img/instagram-Logo.png" class="img-responsive" alt="ssa_instagram" style="margin: auto; display: block;"></a>
+                        </div>
+                    </div>
+-->
+                </div>
+
+                <div class="col-md-5 col-md-offset-1 wow fadeInRight produ-img"  data-wow-delay="2.5s" style="margin-top: 60px"> <img src="../img/events/ssa_white_local.png" class="img-responsive" alt=""> </div>
+<!--                <div class="col-md-5 col-md-offset-1 wow fadeInLeft produ-img"  data-wow-delay="1s" style="margin-top: 60px"> <img src="/img/events/ssa_about.jpg" class="img-responsive" alt=""> </div>-->
+<!--
+                <div style="text-align: center; margin-bottom: 50px" class="col-md-5 col-md-offset-1 wow fadeIn" data-wow-delay="1.5s">
+                        <a href="/#" target="_blank" class="page-scroll btn btn-danger bton" style="font-size: 30px; margin-top: 20px">Apply now</a>
+                </div>
+-->
+
+                <!-- Gallery SSA 3-->
+<!--           In order to use it somewhere, be carefull what to uncomment
+
+                <div class="col-md-12">
+                    <div class="section-title"> <span class="lne"></span>
+                        <h4 class="product-headingn wow fadeInDown" data-wow-delay="0.4s" style="margin-top: 60px">Gallery</h4>
+                    </div>
+
+                    <div class="fs-grid wow fadeIn" data-wow-delay="0.6s">
+                        <div class="fs-row media_gallery" style="width: 100%">
+                            <div class="fs-cell-centered fs-lg-9 fs-xl-8">
+                                <div class="media_large js-carousel_large">
+                                    <a href="https://www.facebook.com/ssaxanthi/posts/598008890616072" target="_blank" class="" data-lightbox-gallery="media_gallery" title="Click me!">
+                                        <img src="/img/events/SSA/what.png" alt="what">
+                                    </a>
+                                    <a href="https://www.facebook.com/ssaxanthi/posts/599937833756511" target="_blank" class="" data-lightbox-gallery="media_gallery" title="Click me!">
+                                        <img src="/img/events/SSA/oc.jpg" alt="oc">
+                                    </a>
+                                    <a href="https://www.facebook.com/ssaxanthi/posts/601339223616372" target="_blank" class="" data-lightbox-gallery="media_gallery" title="Click me!">
+                                        <img src="/img/events/SSA/paschalidou.png" alt="paschalidou">
+                                    </a>
+                                    <a href="https://www.facebook.com/ssaxanthi/posts/602208543529440" target="_blank" class="" data-lightbox-gallery="media_gallery" title="Click me!">
+                                        <img src="/img/events/SSA/idara.png" alt="idara">
+                                    </a>
+                                    <a href="https://www.facebook.com/ssaxanthi/posts/603141920102769" target="_blank" class="" data-lightbox-gallery="media_gallery" title="Click me!">
+                                        <img src="/img/events/SSA/mert.png" alt="mert">
+                                    </a>
+                                    <a href="https://www.facebook.com/ssaxanthi/posts/604082523342042" target="_blank" class="" data-lightbox-gallery="media_gallery" title="Click me!">
+                                        <img src="/img/events/SSA/tunca.png" alt="tunca">
+                                    </a>
+                                    <a href="https://www.facebook.com/ssaxanthi/posts/605512843199010" target="_blank" class="" data-lightbox-gallery="media_gallery" title="Click me!">
+                                        <img src="/img/events/SSA/kouneli.png" alt="kouneli">
+                                    </a>
+                                    <a href="https://www.facebook.com/ssaxanthi/posts/609043259512635" class="" data-lightbox-gallery="media_gallery" title="Click me!">
+                                        <img src="/img/events/SSA/communications&feedback.png" alt="communication&feeedback">
+                                    </a>
+                                    <a href="https://www.facebook.com/ssaxanthi/posts/610119039405057" class="" data-lightbox-gallery="media_gallery" title="Click me!">
+                                        <img src="/img/events/SSA/EI&ConflictManagement.png" alt="EI&CM">
+                                    </a>
+                                    <a href="https://www.facebook.com/ssaxanthi/posts/611058895977738" class="js-lightbox" data-lightbox-gallery="media_gallery" title="Click me!">
+                                        <img src="/img/events/SSA/teamwork.png" alt="teamwork">
+                                    </a>
+                                </div>
+                                <div class="media_small js-carousel_small" data-carousel-controller-for=".js-carousel_large">
+                                    <div class="media_gallery_thumbnail">
+                                        <img src="/img/events/SSA/what.png" alt="what">
+                                    </div>
+                                    <div class="media_gallery_thumbnail">
+                                        <img src="/img/events/SSA/oc.jpg" alt="oc">
+                                    </div>
+                                    <div class="media_gallery_thumbnail">
+                                        <img src="/img/events/SSA/paschalidou.png" alt="paschalidou">
+                                    </div>
+                                    <div class="media_gallery_thumbnail">
+                                        <img src="/img/events/SSA/idara.png" alt="idara">
+                                    </div>
+                                    <div class="media_gallery_thumbnail">
+                                        <img src="/img/events/SSA/mert.png" alt="mert">
+                                    </div>
+                                    <div class="media_gallery_thumbnail">
+                                        <img src="/img/events/SSA/tunca.png" alt="tunca">
+                                    </div>
+                                    <div class="media_gallery_thumbnail">
+                                        <img src="/img/events/SSA/kouneli.png" alt="kouneli">
+                                    </div>
+                                    <div class="media_gallery_thumbnail">
+                                        <img src="/img/events/SSA/communications&feedback.png" alt="communications&feedback">
+                                    </div>
+                                    <div class="media_gallery_thumbnail">
+                                        <img src="/img/events/SSA/EI&ConflictManagement.png" alt="EI&CM">
+                                    </div>
+                                    <div class="media_gallery_thumbnail">
+                                        <img src="/img/events/SSA/teamwork.png" alt="teamwork">
+                                    </div>
+<!--  this was a comment originally
+                                    <div class="media_gallery_thumbnail">
+                                        <img src="https://spacehold.it/125x125/10.jpg" alt="">
+                                    </div>
+-->
+<!--
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+-->
+                <!-- Social Media -->
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="row">
+                        <div style="text-align: center" class="col-md-6 wow fadeIn" data-wow-delay="1s">
+                            <h4><a id="find_out" href="https://www.facebook.com/ssaxanthi/" target="_blank">Find out more</a></h4>
+                            <a href="https://www.facebook.com/ssaxanthi/" target="_blank"><i class="fa fa-facebook-official fa-6" style="font-size: 5em; color: #3B5998"></i></a>
+                        </div>
+                        <div style="text-align: center" class="col-md-6 wow fadeIn" data-wow-delay="1s">
+                            <h4><a href="https://www.instagram.com/eestec_lc_xanthi/" target="_blank">Our Instagram</a></h4>
+                            <a href="https://www.instagram.com/eestec_lc_xanthi/" target="_blank"><img src="../img/instagram-Logo.png" class="img-responsive" alt="ssa_instagram" style="margin: auto; display: block;"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SSA5 Coming Soon -->
+                <!-- <div class="col-md-12">
+                    <div class="section-title"> <span class="lne"></span>
+                        <h4 class="product-headingn wow fadeInDown" data-wow-delay="0.4s" style="margin-top: 60px; visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;"><a href="https://www.facebook.com/ssaxanthi/" target="_blank">COMING SOON</a></h4>
+                    </div>
+                    <div class="col-md-6 col-md-offset-2">
+                        <div class="row">
+                            <div style="" class="col-md-6 wow fadeIn" data-wow-delay="1s">
+                                <a href="https://www.facebook.com/ssaxanthi/" target="_blank">
+                                    <picture>
+                                        <source media="(min-width: 768px)" srcset="../img/events/ssa4_cs.png" alt="SSA 5">
+                                        <source media="(min-width: 550px)" srcset="../img/events/ssa4_cs_medium.png" alt="SSA 5">
+                                        <source  media="(min-width: 375px)" srcset="../img/events/ssa4_cs_medium2.png" alt="SSA 5">
+                                        <img style="display: block; margin-top: 20px;  margin-left: auto; margin-right: auto;" src="../img/events/ssa4_cs_small.png" alt="SSA 5">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Apply -->
+<!--
+                <div class="col-md-12">
+                    <div class="section-title"> <span class="lne"></span>
+                        <h4 class="product-headingn wow fadeInDown" data-wow-delay="0.4s" style="margin-top: 60px">Apply Here</h4>
+                    </div>
+
+                    <div class="container product-headingn wow fadeIn" data-wow-delay="0.6s" style="margin-top: 60px">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdbcmwfQ2KAFydATqmitDVu1fK-hz9j3tzUFJ3JBmPuYLAuaw/viewform?embedded=true" width="100%" height="3000px" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    </div>
+                </div>
+-->
+
+                <!-- Partners -->
+                <div class="col-md-12">
+                    <div class="section-title"> <span class="lne"></span>
+                        <h4 class="product-headingn wow fadeInDown" data-wow-delay="0.4s" style="margin-top: 60px">SSA Partners</h4>
+                    </div>
+
+                    <div class="overlay wow fadeIn" data-wow-delay="0.6s">
+                        <div class="partner container">
+
+                                <div class="row wow fadeInUp" data-wow-delay="0.7s">
+                                    <h2 id="partners7" style="color: black;">Platinum Sponsor</h2>
+                                    <div class="col-sm-12">
+                                        <a class="partner-box ssa-partner-box-2" href="https://www.fagi.gr/xanthi/" target="_blank"></a>
+                                    </div>
+                                </div>
+
+                                <div class="row wow fadeInUp" data-wow-delay="0.7s">
+                                    <h2 id="partners8" style="color: black;">Main Sponsors</h2>
+                                    <div class="col-sm-4">
+                                        <a class="partner-box ssa-partner-box-3" href="https://www.learningevolution.gr/" target="_blank"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a class="partner-box ssa-partner-box-4" href="https://www.hellenergy.com/el" target="_blank"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a class="partner-box ssa-partner-box-5" href="https://www.galaktokomio-rodopi.gr/" target="_blank"></a>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <a class="partner-box ssa-partner-box-6" href="https://www.facebook.com/JulietteEspressoBar" target="_blank"></a>
+                                    </div>
+                                </div>
+
+                                <div class="row wow fadeInUp" data-wow-delay="0.8s">
+                                    <h2 id="partners9" style="color: black;">Supporters</h2>
+                                    <div class="col-sm-4">
+                                        <a class="partner-box ssa-partner-box-7" href="https://www.facebook.com/expresscopyxanthi/" target="_blank"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a class="partner-box ssa-partner-box-8" href="https://www.facebook.com/IL-Forno-pizza-138707452812358/" target="_blank"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a class="partner-box ssa-partner-box-9" href="https://www.facebook.com/PizzaToscanaXanthi/" target="_blank"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a class="partner-box ssa-partner-box-10" href="https://www.e-food.gr/delivery/ksanthi/28-street-food" target="_blank"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a class="partner-box ssa-partner-box-11" href="http://www.tafanarakia.gr/" target="_blank"></a>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <a class="partner-box ssa-partner-box-12" href="https://www.facebook.com/kyvetunes" target="_blank"></a>
+                                    </div>
+                                </div>
+
+<!--
+                                <div class="row wow fadeInUp" data-wow-delay="1.7s">
+                                    <h2 id="partners1" style="color: purple">Community Partners</h2>
+                                    <div class="col-sm-6">
+                                        <a class="partner-box ssa-partner-box-1" href="/#" target="_blank"></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a class="partner-box ssa-partner-box-2" href="/#" target="_blank"></a>
+                                    </div>
+                                </div>
+-->
+
+                                <div class="row">
+                                    <div class="col-sm-6 col-sm-offset-3 wow fadeIn" data-wow-delay="0.9s">
+                                        <h2 id="partners10" style="color: black">Supporters</h2>
+                                        <div class="col-sm-6">
+                                            <a class="partner-box partner-box-3" href="http://www.ee.duth.gr/" target="_blank"></a>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <a class="partner-box ssa-partner-box-1" href="https://ssa.eestec.net/" target="_blank"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+<!--    Μοdel Event
+            <div id="ssa3" class="tabcontent">
+              <div class="col-md-6">
+                    <div class="about-text">
+                      <ul class="products-list">
+                          <li class=" wow fadeIn" data-wow-delay="1s"><strong style="color: red"><b>About SSA 2</b></strong><br>
+                                <p id="ssa_2">The subjects that were presented in this year’s SSA were:<br>
+                                &bull;  Habits of Highly Effective People<br>
+                                &bull;  Feedback and Strokes<br><br>
+                                This two day seminar mainly focused on the most important part of soft skills, which is Self Development. Each one of the subjects included 2 interactional training sessions, which lasted for 4 hours each. These sessions were  delivered by trainers of EESTEC and focused on subjects such as the improvement of team spirit and the effective cooperation between students.
+                                </p>
+                          </li>
+                      </ul>
+                    </div>
+                      <div class="row">
+                          <div style="text-align: center" class="col-md-6 wow fadeIn" data-wow-delay="1.5s">
+                              <h4><a id="find_out" href="https://www.facebook.com/ssaxanthi/" target="_blank">Find out more</a></h4>
+                              <a href="https://www.facebook.com/ssaxanthi/" target="_blank"><i class="fa fa-facebook-official fa-6" style="font-size: 10em; color: #3B5998"></i></a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-md-5 col-md-offset-1 wow fadeInRight produ-img"  data-wow-delay=".5s" style="margin-top: 100px"> <img src="/img/events/ssa2.jpg" class="img-responsive" alt=""> </div>
+            </div>
+-->
+
+            <div id="ssa5" class="tabcontent">
+              <div class="col-md-6">
+                  <div class="about-text">
+                    <ul class="products-list">
+                        <li class=" wow fadeIn" data-wow-delay="1s"><strong style="color: red"><b>About SSA 5</b></strong><br>
+                                    <p id="ssa_5">EESTEC LC XANTHI with the experience of the remaining four years decided to organize the SSA 5 but, online this time. The event will take place on November 28 and 29 with the theme "Living and Working During the Pandemic". The trainings will consist of 2 parts. Each part will last about 2-2.5 hours. The aim of the trainings is to develop the skills that will help the participants in the time of the pandemic.</p>
+
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+
+                  <div class="col-md-5 col-md-offset-1 wow fadeInRight produ-img"  data-wow-delay=".5s" style="margin-top: 100px"> <img src="../img/events/SSA5_promo_pic.jpg" class="img-responsive" alt=""> </div>
+            </div>
+
+            <div id="ssa4" class="tabcontent">
+              <div class="col-md-6">
+                    <div class="about-text">
+                      <ul class="products-list">
+                          <li class=" wow fadeIn" data-wow-delay="1s"><strong style="color: red"><b>About SSA 4</b></strong><br>
+                                <p id="ssa_4">SSA 4 was the fourth edition of SSA LC Xanthi organized, and it took place in November 2019. The goal again was to raise the awareness about the importance of Soft Skills throughout the student community. The 2-day seminar focused on two main soft skills categories, Self Development and Team Management. The training sessions were delivered by 7 EESTEC Trainers in collaboration with 1 trainer from other organization. The training sessions were in English (2) and Greek (2).</p>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- <div class="col-md-5 col-md-offset-1 wow fadeInRight produ-img"  data-wow-delay=".5s" style="margin-top: 100px"> <img src="../img/events/ssa4.jpg" class="img-responsive" alt=""> </div> -->
+            </div>
+
+            <div id="ssa3" class="tabcontent">
+              <div class="col-md-6">
+                    <div class="about-text">
+                      <ul class="products-list">
+                          <li class=" wow fadeIn" data-wow-delay="1s"><strong style="color: red"><b>About SSA 3</b></strong><br>
+                                <p id="ssa_3">SSA 3 was the third edition of SSA LC Xanthi organized, and it took place in November 2018. The goal again was to raise the awareness about the importance of Soft Skills throughout the student community. The 2-day seminar focused on two main soft skills categories, Self Development and Team Management. The training sessions were delivered by EESTEC Trainers in collaboration with trainers from other organizations, in Greek and English.</p>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-md-5 col-md-offset-1 wow fadeInRight produ-img"  data-wow-delay=".5s" style="margin-top: 100px"> <img src="../img/events/ssa3.jpg" class="img-responsive" alt=""> </div>
+            </div>
+
+            <div id="ssa2" class="tabcontent">
+              <div class="col-md-6">
+                    <div class="about-text">
+                      <ul class="products-list">
+                          <li class=" wow fadeIn" data-wow-delay="1s"><strong style="color: red"><b>About SSA 2</b></strong><br>
+                                <p id="ssa_2">SSA 2 was the second edition of SSA LC Xanthi organized, and took place in October 2017. The goal was to raise the awareness about the importance of soft skills in the working field throughout student community. The 2-day seminar focused on the main soft skills category, Self Development. The two sub-sessions were about Habits Of Highly Effective People and Feedback & Strokes. Each one of the two training sessions lasted about 8 hours (4 hours per day) and were delivered by EESTEC Trainers..
+                                </p>
+                          </li>
+                      </ul>
+                    </div>
+<!--
+                      <div class="row">
+                          <div style="text-align: center" class="col-md-6 wow fadeIn" data-wow-delay="1.5s">
+                              <h4><a id="find_out" href="https://www.facebook.com/ssaxanthi/" target="_blank">Find out more</a></h4>
+                              <a href="https://www.facebook.com/ssaxanthi/" target="_blank"><i class="fa fa-facebook-official fa-6" style="font-size: 10em; color: #3B5998"></i></a>
+                          </div>
+                      </div>
+-->
+                  </div>
+
+                  <div class="col-md-5 col-md-offset-1 wow fadeInRight produ-img"  data-wow-delay=".5s" style="margin-top: 100px"> <img src="../img/events/ssa2.jpg" class="img-responsive" alt=""> </div>
+            </div>
+
+            <div id="ssa1" class="tabcontent">
+              <div class="col-md-6">
+                    <div class="about-text">
+                      <ul class="products-list">
+                          <li class=" wow fadeIn" data-wow-delay="1s"><strong style="color: red"><b>About SSA 1</b></strong><br>
+                                <p id="ssa_1">On November 2016 and for the first time, LC Xanthi organized an SSA in order to raise the awareness about the importance of soft skills in the working field throughout students. The 2-day seminar focused on two soft skills categories, Leadership and Self Development. In the Leadership session the participants practiced their Communication skills and learned about the importance of delegation and motivation in a leader. In the Self Development session they focused on skills such as Self Confidence, Personal Branding and Emotional Intelligence. Each one of the two training sessions lasted about 4 hours and were delivered by EESTEC Trainers.</p>
+                          </li>
+                      </ul>
+                    </div>
+<!--
+                      <div class="row">
+                          <div style="text-align: center" class="col-md-6 wow fadeIn" data-wow-delay="1.5s">
+                              <h4><a id="find_out" href="https://www.facebook.com/ssaxanthi/" target="_blank">Find out more</a></h4>
+                              <a href="https://www.facebook.com/ssaxanthi/" target="_blank"><i class="fa fa-facebook-official fa-6" style="font-size: 10em; color: #3B5998"></i></a>
+                          </div>
+                      </div>
+-->
+                  </div>
+
+                  <div class="col-md-5 col-md-offset-1 wow fadeInRight produ-img"  data-wow-delay=".5s" style="margin-top: 100px"> <img src="../img/events/ssa1.JPG" class="img-responsive" alt=""> </div>
+            </div>
+
+            <script>
+
+                document.getElementById("makeactive").click();
+                function openCity(evt, cityName) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+                    document.getElementById(cityName).style.display = "block";
+                    evt.currentTarget.className += " active";
+                }
+
+            </script>
+
+    </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Other Projects
+    ==========================================-->
+<section id="tf-works" >
+  <div class="overlay">
+   <div class="container">
+    <div class="section-title"> <span class="lne"></span>
+        <h4 class="product-headingn wow fadeInDown" id="other_projects" >other projects</h4>
+    </div>
+  <div class="overlay wow fadeInUp" data-wow-delay=".5s">
+    <div class="container">
+      <div id="Projects" class="owl-carousel owl-theme row">
+        <div class="portfolio-item">
+          <div class="hover-bg"> <a href="http://uniday.duth.gr/">
+            <div class="hover-text">
+              <h4>Uniday<br><br></h4>
+            </div>
+            <img src="../img/portfolio/02.png" class="img-responsive" alt="..."> </a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="hover-bg"> <a href="../career.html">
+            <div class="hover-text">
+              <h4>Career Day<br><br></h4>
+            </div>
+            <img src="../img/portfolio/03.png" class="img-responsive" alt="..."> </a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="hover-bg"> <a href="../ssa">
+            <div class="hover-text">
+              <h4>Soft Skills Academy</h4>
+            </div>
+            <img src="../img/portfolio/04.png" class="img-responsive" alt="..."> </a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="hover-bg"> <a href="../ec.html">
+            <div class="hover-text">
+              <h4>EESTech Challenge</h4>
+            </div>
+            <img src="../img/portfolio/05.png" class="img-responsive" alt="..."> </a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="hover-bg"> <a href="../seminars.html">
+            <div class="hover-text">
+              <h4>Seminars & Workshops<br><br></h4>
+            </div>
+            <img src="../img/portfolio/06.png" class="img-responsive" alt="..."> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      </div>
+    </div>
+</section>
+<!--client logos end-->
+
+<!-- footer Section
+    ==========================================-->
+<footer class="footer-section">
+  <div class="container">
+    <div class="row text-center ">
+      <div class="col-md-12">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 wow fadeInUp">
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+      <div class="col-md-12 text-center">
+        <div class=" fnav">
+          <div class="footer-social">
+            <a class="col-md-2" href="../index.html#hero"><img src="../img/logo-top-white.png" width="100" alt=""></a>
+            <a class="col-md-2" href="https://www.facebook.com/EESTECLCXanthi/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+<!--            <a class="col-md-2" class="col-md-5" href="https://twitter.com/eestec_xanthi" target="_blank"><i class="fa fa-twitter"></i></a>-->
+            <a class="col-md-2" href="https://www.instagram.com/eestec_lc_xanthi/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a class="col-md-2" href="https://www.linkedin.com/company/eesteclcxanthi/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a class="col-md-2" href="https://www.youtube.com/channel/UC_8gbN7BrNbd_GSdkDH83jw" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="footer">
+          <br>
+        <p>Copyright &copy; 2018 • Designed by dcrazed • Developed by EESTEC LC XANTHI IT TEAM • All Rights Reserved</p>
+      </div>
+  </div>
+</footer>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript" src="../js/jquery.1.11.1.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript" src="../js/SmoothScroll.js"></script>
+<script type="text/javascript" src="../js/jquery.isotope.js"></script>
+<script src="../js/owl.carousel.js"></script>
+<script type="text/javascript" src="../js/wow.min.js"></script>
+<script type="text/javascript">new WOW().init();</script>
+
+<!-- Javascripts
+    ================================================== -->
+<script type="text/javascript" src="../js/main.js"></script>
+<script type="text/javascript" src="../js/translate.js"></script>
+
+<!-- Lightbox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/formstone/1.1.3/js/core.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/formstone/1.1.3/js/carousel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/formstone/1.1.3/js/lightbox.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/formstone/1.1.3/js/mediaquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/formstone/1.1.3/js/touch.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/formstone/1.1.3/js/transition.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function() {
+
+      $(".js-carousel_large").carousel({
+        pagination: false,
+        autoHeight: true
+      });
+
+      $(".js-carousel_small").carousel({
+        show: {
+          "0px": 4,
+          "500px": 6,
+          "980px": 8
+        },
+        controls: false,
+        pagination: false
+      });
+
+      $(".js-lightbox").lightbox({
+        mobile: true
+      });
+
+      setInterval(function(){
+          if (document.getElementsByClassName('fs-carousel-control fs-carousel-control_next fs-carousel-visible')[0] != null){
+            document.getElementsByClassName('fs-carousel-control fs-carousel-control_next fs-carousel-visible')[0].click();
+          } else {
+            document.getElementsByClassName('media_gallery_thumbnail fs-carousel-item fs-carousel-item_previous')[0].click();
+          }
+      }, 5000);
+
+    });
+</script>
+<!--sxolio-->
+</body>
+</html>

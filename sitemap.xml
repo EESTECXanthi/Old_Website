@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://eestec.ee.duth.gr/</loc>
+  <lastmod>2018-07-20T06:29:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://eestec.ee.duth.gr/international.html</loc>
+  <lastmod>2018-07-09T18:55:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eestec.ee.duth.gr/career.html</loc>
+  <lastmod>2018-07-09T18:55:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eestec.ee.duth.gr/ssa</loc>
+  <lastmod>2018-07-09T18:55:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eestec.ee.duth.gr/ec.html</loc>
+  <lastmod>2018-07-09T18:55:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eestec.ee.duth.gr/seminars.html</loc>
+  <lastmod>2018-07-09T18:55:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eestec.ee.duth.gr/boards.html</loc>
+  <lastmod>2018-07-09T18:55:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eestec.ee.duth.gr/index.html</loc>
+  <lastmod>2018-07-20T06:29:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://eestec.ee.duth.gr/blinders/</loc>
+  <lastmod>2018-07-09T18:55:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

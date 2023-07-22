@@ -1,0 +1,49 @@
+4-11-2020 v1.0.8.5:
+-Added SSA5 at translate.js
+--------------------------------------------------------------------------------
+4-11-2020 v1.0.8.5:
+-Added SSA5 event & SSA5 button &changed join us url
+--------------------------------------------------------------------------------
+06-09-2020 v1.0.8.5:
+-Changed the board members, added one old board
+--------------------------------------------------------------------------------
+23-12-2019 v1.0.8.4:
+-Changed default international events pic
+-Added call to machiners/index.html
+-Added sponsors to machiners/index.html
+-Added come back soon section in international/machiners
+--------------------------------------------------------------------------------
+13-12-2019 v1.0.7.1:
+-Fixed blinders relative paths
+-Fixed blinders image path
+-Created machiners section in intenational events
+--------------------------------------------------------------------------------
+13-12-2019 v1.0.5.0:
+-Fixed responsiveness bug on ssa sponsors (on medium screens)
+--------------------------------------------------------------------------------
+28-10-2019 v1.0.4.0:
+-Completely fixed menu font color when the user has not scrolled (see v1.0.2.1).
+-Fixed buggy ssa link on other projects section.
+-Deleted SSA3 gallery from the main SSA page.
+-Added SSA3 to past events.
+-Updated number of organized SSAs.
+-Added responsive SSA4 coming soon image.
+--------------------------------------------------------------------------------
+06-10-2019 v1.0.2.1:
+-Fixed a bug with nav letters being white on a white bg on the burger menu.
+-Updated the recruitment form link on the main page.
+--------------------------------------------------------------------------------
+08-06-2019 v1.0.1.0:
+-Fixed a bug that made the old board's names appearing in place of the current.
+--------------------------------------------------------------------------------
+31-05-2019 v1.0.0.1:
+-Small changes concerning EESTech Challenge and the 3D Printing Workshop.
+
+________________________________________________________________________________
+Proposed Versioning System Guidelines:
+
+vMAJOR.MINOR.PATCH.UPDATE
+MAJOR : Major changes on the API, incompatible with previous versions.
+MINOR : Minor compatible changes, adding functionalities
+PATCH : Bug Fixes
+UPDATE: Content updates
